@@ -1,0 +1,9 @@
+{
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "auto-close-tag.enableAutoCloseTag": true,
+    "auto-close-tag.activationOnLanguage": ["*"],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+    }
+}
