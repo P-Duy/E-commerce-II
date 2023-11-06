@@ -9,7 +9,7 @@
         <img class="img-fluid" alt="Responsive imgae" src="{{ product.image.url}}" >
         <div class="card-body">
             <p class="card-text">
-                <a class="text-dark text-decoration-none" href="">
+                <a class="text-dark text-decoration-none" href="{{product.get_absolute_url}}">
                     {{product.title}}
                 </a>
             </p>
